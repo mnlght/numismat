@@ -1,9 +1,0 @@
-host:unumismat.tw1.ru;
-user:cr62751_numismat;
-password:adminnumis321;
-database:cr62751_numismat;
-
-
-CREATE USER 'cr62751'@'unumismat.tw1.ru' IDENTIFIED BY 'adminnumis321';
-GRANT ALL PRIVILEGES ON * . * TO 'cr62751'@'unumismat.tw1.ru';
-FLUSH PRIVILEGES;
